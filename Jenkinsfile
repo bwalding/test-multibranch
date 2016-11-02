@@ -1,5 +1,7 @@
 node {
+  stage("Omicron") {
   
+  }
 
   stage("Alpha") {
     print "Lololl"

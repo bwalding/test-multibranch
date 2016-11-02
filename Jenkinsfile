@@ -14,6 +14,6 @@ node {
 
   print "This is not in a stage"
   stage("Gamma") {
-    build job: "test-multibranch-slave
+    build job: "test-multibranch-slave"
   }
 }

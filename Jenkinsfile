@@ -16,4 +16,9 @@ node {
   stage("Gamma") {
     build job: "test-multibranch-slave"
   }
+
+  stage("Delta") {
+    build job: "test-multibranch-slave-pipeline"
+  }
+
 }
